@@ -1,0 +1,88 @@
+.search-box {
+}
+.search-box > input {
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.auto-complete-box {
+  margin-top: 5px;
+  width: 300px;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.complete-item-box {
+  margin-bottom: 10px;
+}
+
+.complete-item-title {
+  display: flex;
+  justify-content: space-between;
+}
+.complete-item-title > h4,
+p {
+  margin: 0;
+}
+
+.complete-item-title > p {
+  color: gray;
+}
+
+.rating-dropdown {
+  width: 100px;
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid #333;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.keyword-container {
+  margin-right: 10px;
+}
+
+.dropdown-box {
+  display: flex;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 43px;
+  left: 0;
+  width: 200px;
+  border: 1px solid #333;
+}
+
+.dropdown-list > div {
+  box-sizing: border-box;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-list input {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.dropdown-container > div {
+  margin-right: 10px;
+}
